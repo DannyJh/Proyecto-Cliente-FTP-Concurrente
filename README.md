@@ -22,6 +22,8 @@ El proyecto incluye un `Makefile` para facilitar la compilación. Ejecuta el sig
 ```bash
 make
 
+
+
 ## Uso
 
 Para iniciar el cliente, es **obligatorio** especificar la IP del servidor y el puerto (generalmente 21):
@@ -44,5 +46,3 @@ Una vez establecida la conexión, puedes utilizar los siguientes comandos dentro
 | **mkdir** | `mkdir <nombre_dir>` | Crea un nuevo directorio en el servidor. |
 | **delete** | `delete <archivo>` | Elimina un archivo específico en el servidor. |
 | **quit** | `quit` o `exit` | Cierra la sesión, termina la conexión y sale del programa. |
-
-
